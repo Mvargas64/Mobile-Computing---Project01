@@ -1,9 +1,7 @@
-In this milestone, your team should complete the following tasks as part of the final project.
-
 ### Finalized project proposal:
 Plant Identification App
 
-Identify any risky components
+##### Identify any risky components
 ### Uses an outside API 
 NA
 

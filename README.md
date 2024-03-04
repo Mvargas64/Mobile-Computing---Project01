@@ -1,7 +1,7 @@
 ### Finalized project proposal:
 Plant Identification App
 
-##### Identify any risky components
+#### Identify any risky components
 ### Uses an outside API 
 NA
 

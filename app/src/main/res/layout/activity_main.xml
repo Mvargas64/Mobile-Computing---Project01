@@ -1,68 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:queryHint="Search here"/>
+
     <TextView
         android:id="@+id/textView"
+        android:layout_below="@id/searchView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Plant Homepage"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button"
+        android:layout_below="@id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Plant 1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button2"
+        android:layout_below="@id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Plant 2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button3"
+        android:layout_below="@id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Plant 3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button4"
+        android:layout_below="@id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Plant 4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

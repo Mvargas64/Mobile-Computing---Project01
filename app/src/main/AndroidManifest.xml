@@ -19,6 +19,12 @@
             android:name=".Plant1"
             android:exported="false" />
         <activity
+            android:name=".Plant2"
+            android:exported="false" />
+        <activity
+            android:name=".Plant4"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

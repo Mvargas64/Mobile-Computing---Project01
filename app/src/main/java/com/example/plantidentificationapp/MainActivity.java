@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.button);
+        Button button = findViewById(R.id.Plant2BTN);
         button.setOnClickListener(this::onClickPlant2BTN);
     }
 
     public void onClickPlant2BTN(View v){
-        Intent ini = new Intent(this, Plant2.class);
+        Intent ini = new Intent(MainActivity.this, Plant2.class);
         startActivity(ini);
     }
 }

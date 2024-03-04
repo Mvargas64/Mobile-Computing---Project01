@@ -18,7 +18,7 @@ public class Plant2 extends AppCompatActivity {
     }
 
     public void onClickMainBTN(View v){
-        Intent ini = new Intent(this, MainActivity.class);
+        Intent ini = new Intent(Plant2.this, MainActivity.class);
         startActivity(ini);
     }
 }

@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".Plant2">
 
+    <TextView
+        android:id="@+id/Plant2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plant 2"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <Button
+        android:id="@+id/MainBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMainBTN"
+        android:text="Main"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="318dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

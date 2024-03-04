@@ -13,7 +13,7 @@ public class Plant2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plant2);
-        Button mainBTN = findViewById(R.id.MainBTN);
+        Button mainBTN = findViewById(R.id.plant3Main);
         mainBTN.setOnClickListener(this::onClickMainBTN);
     }
 

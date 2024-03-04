@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class Plant4 extends AppCompatActivity {
 
@@ -12,6 +13,9 @@ public class Plant4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plant4);
+        Button button = findViewById(R.id.button);
+        button.setOnClickListener(this::onClickMainBTN);
+
     }
 
     public void onClickMainBTN(View v){

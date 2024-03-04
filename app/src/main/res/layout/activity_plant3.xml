@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Plant3">
 
+    <Button
+        android:id="@+id/plant3Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="301dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

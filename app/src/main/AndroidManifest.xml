@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PlantIdentificationApp"
         tools:targetApi="31">
         <activity
+            android:name=".Plant4"
+            android:exported="false" />
+        <activity
             android:name=".Plant1"
             android:exported="false" />
         <activity

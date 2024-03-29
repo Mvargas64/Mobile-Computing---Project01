@@ -21,3 +21,11 @@ Done
 Done
 
 Make sure that all of the team members have clearly defined contributions (commits to the repo) to the project.  See the repo workflow guidelines. GitHub work flow requirements.pdf
+
+### Website Used
+https://www.picturethisai.com/wiki/Capsicum_annuum.html
+
+### Milestone 2 Description of changes:
+Through Mario's computer, we attempted to rework a majority of the system, but ran into some issues while trying to run it. Multiple people in the group attempted trouble shooting.
+
+

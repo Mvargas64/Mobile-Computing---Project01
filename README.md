@@ -22,6 +22,8 @@ Done
 
 Make sure that all of the team members have clearly defined contributions (commits to the repo) to the project.  See the repo workflow guidelines. GitHub work flow requirements.pdf
 
+---
+
 ### Website Used
 https://www.picturethisai.com/wiki/Capsicum_annuum.html
 

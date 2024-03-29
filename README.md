@@ -6,7 +6,7 @@ Plant Identification App
 NA
 
 ### Requires functionality we will not talk about: 
-Search Bar
+Search Bar and adding pictures of plants
 
 ### Requires functionality we will talk about later (maps, media, database services, etc.): 
 Search Bar

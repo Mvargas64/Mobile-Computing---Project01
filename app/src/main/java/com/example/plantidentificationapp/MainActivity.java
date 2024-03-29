@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickButton1(View v){
         Intent intent = new Intent(MainActivity.this, PlantList.class);
         intent.putExtra("listType", "Plant1"); // Pass the identifier
+        intent.putExtra("Pepper/Capsicum Annuum", "Chili Pepper");
         startActivity(intent);
     }
 

@@ -34,7 +34,7 @@ public class PlantList extends AppCompatActivity {
 
         // Populate plantList based on the listType
         switch (listType) {
-            case "Plant1":
+            case "Chili Pepper":
                 // Populate plantList for Plant1
                 break;
             case "Plant2":

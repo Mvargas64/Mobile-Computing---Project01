@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickPlant2BTN(View v){
         Intent intent = new Intent(MainActivity.this, PlantList.class);
         intent.putExtra("listType", "Plant2"); // Pass the identifier
+        intent.putExtra("Pepper/Capsicum Annum", "Jalepeno");
         startActivity(intent);
     }
 

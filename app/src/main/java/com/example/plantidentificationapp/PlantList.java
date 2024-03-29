@@ -37,7 +37,7 @@ public class PlantList extends AppCompatActivity {
             case "Chili Pepper":
                 // Populate plantList for Plant1
                 break;
-            case "Plant2":
+            case "Jalepeno":
                 // Populate plantList for Plant2
                 break;
             case "Plant3":

@@ -34,20 +34,20 @@ public class PlantList extends AppCompatActivity {
 
         // Populate plantList based on the listType
         switch (listType) {
-            case "Chili Pepper":
-                // Populate plantList for Plant1
+            case "Plant1":
+                plantList.add(new PlantModel.Plant("Plant 1 Name", "Scientific Name 1", "Description 1", "Lifespan 1", "Type 1"));
                 break;
-            case "Jalepeno":
-                // Populate plantList for Plant2
+            case "Plant2":
+                plantList.add(new PlantModel.Plant("Plant 2 Name", "Scientific Name 2", "Description 2", "Lifespan 2", "Type 2"));
                 break;
             case "Plant3":
-                // Populate plantList for Plant3
+                plantList.add(new PlantModel.Plant("Plant 3 Name", "Scientific Name 3", "Description 3", "Lifespan 3", "Type 3"));
                 break;
             case "Plant4":
-                // Populate plantList for Plant4
+                plantList.add(new PlantModel.Plant("Plant 4 Name", "Scientific Name 4", "Description 4", "Lifespan 4", "Type 4"));
                 break;
             default:
-                // Handle the default case
+                // Handle default case
                 break;
         }
 

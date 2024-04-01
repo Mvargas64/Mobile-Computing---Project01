@@ -17,7 +17,9 @@
         android:id="@+id/playBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_gravity="right"
         android:text="Play" />
+
 
 </LinearLayout>

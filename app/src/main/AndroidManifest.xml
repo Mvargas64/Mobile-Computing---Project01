@@ -13,23 +13,11 @@
         android:theme="@style/Theme.PlantIdentificationApp"
         tools:targetApi="31">
         <activity
-            android:name=".Plant5"
-            android:exported="false" />
+            android:name=".PlantDetailsActivity"
+            android:exported="true" />
         <activity
             android:name=".PlantList"
-            android:exported="false" />
-        <activity
-            android:name=".Plant3"
-            android:exported="false" />
-        <activity
-            android:name=".Plant1"
-            android:exported="false" />
-        <activity
-            android:name=".Plant2"
-            android:exported="false" />
-        <activity
-            android:name=".Plant4"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

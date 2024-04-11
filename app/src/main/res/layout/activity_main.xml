@@ -1,34 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:visibility="visible"
+        app:srcCompat="@android:color/holo_blue_light" />
 
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:queryHint="Search here"/>
+        android:queryHint="Search here" >
+
+    </SearchView>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_below="@id/searchView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Plant Homepage"
+        android:layout_below="@id/searchView"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true"/>
+        android:text="Plant Homepage" />
 
     <Button
         android:id="@+id/Plant1BTN"
-        android:layout_below="@id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Plant 1"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true"/>
+        android:text="Plant 1" />
 
     <Button
         android:id="@+id/Plant2BTN"
@@ -42,20 +54,20 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_below="@id/Plant2BTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Plant 3"
+        android:layout_below="@id/Plant2BTN"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true"/>
+        android:text="Plant 3" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_below="@id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Plant 4"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true"/>
+        android:text="Plant 4" />
 
 </RelativeLayout>

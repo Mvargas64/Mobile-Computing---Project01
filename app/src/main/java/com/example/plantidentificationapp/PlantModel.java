@@ -21,14 +21,17 @@ public class PlantModel {
         }
 
         public String getName() {
+
             return Name;
         }
 
         public void setName(String Name) {
+
             this.Name = Name;
         }
 
         public String getScientific_name() {
+
             return Scientific_name;
         }
 
@@ -37,25 +40,31 @@ public class PlantModel {
         }
 
         public String getDescription() {
+
             return Description;
         }
 
         public void setDescription(String Description) {
+
             this.Description = Description;
         }
         public String getLifespan() {
+
             return Lifespan ;
         }
 
         public void setLifespan(String Lifespan) {
+
             this.Lifespan = Lifespan;
         }
 
         public String getType() {
+
             return Type ;
         }
 
         public void setType(String Type) {
+
             this.Type = Type;
         }
 

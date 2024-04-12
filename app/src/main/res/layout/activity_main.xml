@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:outlineProvider="none"
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,14 +13,18 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
         android:visibility="visible"
-        app:srcCompat="@android:color/holo_blue_light" />
+        app:srcCompat="@color/material_dynamic_neutral30" />
 
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:queryHint="Search here" >
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ff6750a4"
+        android:queryHint="Search here">
 
     </SearchView>
 
@@ -31,7 +35,8 @@
         android:layout_below="@id/searchView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant Homepage" />
+        android:text="Plant Homepage"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/Plant1BTN"
@@ -40,7 +45,10 @@
         android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant 1" />
+        android:text="Plant 1"
+        android:textColorHighlight="#000000"
+        app:strokeColor="#292626"
+        app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/Plant2BTN"
@@ -50,24 +58,30 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:onClick="onClickPlant2BTN"
-        android:text="Plant 2" />
+        android:text="Plant 2"
+        app:strokeColor="#292626"
+        app:strokeWidth="4dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Plant3BTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Plant2BTN"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant 3" />
+        android:text="Plant 3"
+        app:strokeColor="#292626"
+        app:strokeWidth="4dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Plant4BTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button3"
+        android:layout_below="@id/Plant3BTN"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant 4" />
+        android:text="Plant 4"
+        app:strokeColor="#292626"
+        app:strokeWidth="4dp" />
 
 </RelativeLayout>

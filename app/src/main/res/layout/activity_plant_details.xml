@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light">
+    android:background="@color/material_dynamic_neutral30">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,6 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Name"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -21,25 +22,29 @@
             android:id="@+id/scientificNameTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Scientific Name" />
+            android:text="Scientific Name"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:id="@+id/descriptionTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Description" />
+            android:text="Description"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:id="@+id/lifespanTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lifespan" />
+            android:text="Lifespan"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:id="@+id/typeTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Type" />
+            android:text="Type"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </RelativeLayout>

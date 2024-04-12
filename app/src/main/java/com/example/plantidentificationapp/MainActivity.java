@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         Button button2 = findViewById(R.id.Plant1BTN);
         button2.setOnClickListener(this::onClickButton1);
 
-        Button button3 = findViewById(R.id.button3);
+        Button button3 = findViewById(R.id.Plant3BTN);
         button3.setOnClickListener(this::onClickPlant3BTN);
 
-        Button button4 = findViewById(R.id.button4);
+        Button button4 = findViewById(R.id.Plant4BTN);
         button4.setOnClickListener(this::onClickPlant4BTN);
     }
 

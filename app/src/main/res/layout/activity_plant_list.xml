@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="@color/material_dynamic_neutral30"
     tools:context=".PlantList">
 
     <ScrollView
@@ -31,6 +31,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintVertical_bias="0.5"
+        app:strokeColor="#292626"
+        app:strokeWidth="4dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

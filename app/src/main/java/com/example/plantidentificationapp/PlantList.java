@@ -52,7 +52,7 @@ public class PlantList extends AppCompatActivity {
                 plantList.add(new PlantModel.Plant("Posion Ivy", "Toxicodendron radicans", "Also known as climbing posion ivy, it is known for it climbing abilities. It is toxic and touching may cause dermatitis.", "Perennial", "Vine"));
                 plantList.add(new PlantModel.Plant("Pokeweed", "Phytolacca americana", "It has berries that look like a cluster of black grapes. These are very poisonous and should not be eaten. It is considered a pest species by farmers but also grown as an ornamental plant.", "Perennial", "Herb"));
                 plantList.add(new PlantModel.Plant("Horseweed", "Erigeron canadensis", "Horseweed is from North America and is an annual plant with a hairy stem, waxy inflorescence, and numerous pointed leaves.", "Annual, Biennial", "Herb"));
-                plantList.add(new PlantModel.Plant("Common Dandelion", "Taraxacum officinale", "Found in temperate regions around the world. The most noticeable feature is its fruits, the furry spheres that are easily carried by the wind. They are also not poisonous and are edible and very nutritious", "Lifespan 4", "Type 4"));
+                plantList.add(new PlantModel.Plant("Common Dandelion", "Taraxacum officinale", "Found in temperate regions around the world. The most noticeable feature is its fruits, the furry spheres that are easily carried by the wind. They are also not poisonous and are edible and very nutritious", "Perennial", "Herb"));
                 break;
             case "Plant4":
                 plantList.add(new PlantModel.Plant("Plant 1 Name", "Scientific Name 1", "Description 1", "Lifespan 1", "Type 1"));

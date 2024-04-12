@@ -48,11 +48,11 @@ public class PlantList extends AppCompatActivity {
                 plantList.add(new PlantModel.Plant("Plant 3 Name", "Scientific Name 3", "Description 3", "Lifespan 3", "Type 3"));
                 plantList.add(new PlantModel.Plant("Plant 4 Name", "Scientific Name 4", "Description 4", "Lifespan 4", "Type 4"));
                 break;
-            case "Plant3":
-                plantList.add(new PlantModel.Plant("Plant 1 Name", "Scientific Name 1", "Description 1", "Lifespan 1", "Type 1"));
-                plantList.add(new PlantModel.Plant("Plant 2 Name", "Scientific Name 2", "Description 2", "Lifespan 2", "Type 2"));
-                plantList.add(new PlantModel.Plant("Plant 3 Name", "Scientific Name 3", "Description 3", "Lifespan 3", "Type 3"));
-                plantList.add(new PlantModel.Plant("Plant 4 Name", "Scientific Name 4", "Description 4", "Lifespan 4", "Type 4"));
+            case "Weeds":
+                plantList.add(new PlantModel.Plant("Posion Ivy", "Toxicodendron radicans", "Also known as climbing posion ivy, it is known for it climbing abilities. It is toxic and touching may cause dermatitis.", "Perennial", "Vine"));
+                plantList.add(new PlantModel.Plant("Pokeweed", "Phytolacca americana", "It has berries that look like a cluster of black grapes. These are very poisonous and should not be eaten. It is considered a pest species by farmers but also grown as an ornamental plant.", "Perennial", "Herb"));
+                plantList.add(new PlantModel.Plant("Horseweed", "Erigeron canadensis", "Horseweed is from North America and is an annual plant with a hairy stem, waxy inflorescence, and numerous pointed leaves.", "Annual, Biennial", "Herb"));
+                plantList.add(new PlantModel.Plant("Common Dandelion", "Taraxacum officinale", "Found in temperate regions around the world. The most noticeable feature is its fruits, the furry spheres that are easily carried by the wind. They are also not poisonous and are edible and very nutritious", "Lifespan 4", "Type 4"));
                 break;
             case "Plant4":
                 plantList.add(new PlantModel.Plant("Plant 1 Name", "Scientific Name 1", "Description 1", "Lifespan 1", "Type 1"));

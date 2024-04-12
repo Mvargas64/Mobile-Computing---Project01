@@ -35,8 +35,11 @@
         android:layout_below="@id/searchView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
+        android:background="#ff6750a4"
+        android:shadowColor="#00000000"
         android:text="Plant Homepage"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
 
     <Button
         android:id="@+id/Plant1BTN"

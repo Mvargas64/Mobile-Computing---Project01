@@ -29,25 +29,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickButton1(View v){
         Intent intent = new Intent(MainActivity.this, PlantList.class);
-        intent.putExtra("listType", "Plant1"); // Pass the identifier
+        intent.putExtra("listType", "Toxic Plants"); // Pass the identifier
         startActivity(intent);
     }
 
     public void onClickPlant2BTN(View v){
         Intent intent = new Intent(MainActivity.this, PlantList.class);
-        intent.putExtra("listType", "Plant2"); // Pass the identifier
+        intent.putExtra("listType", "Trees"); // Pass the identifier
         startActivity(intent);
     }
 
     public void onClickPlant3BTN(View v){
         Intent intent = new Intent(MainActivity.this, PlantList.class);
-        intent.putExtra("listType", "Plant3"); // Pass the identifier
+        intent.putExtra("listType", "Weeds"); // Pass the identifier
         startActivity(intent);
     }
 
     public void onClickPlant4BTN(View v){
         Intent intent = new Intent(MainActivity.this, PlantList.class);
-        intent.putExtra("listType", "Plant4"); // Pass the identifier
+        intent.putExtra("listType", "Bushes"); // Pass the identifier
         startActivity(intent);
     }
 }

@@ -71,7 +71,7 @@ public class PlantList extends AppCompatActivity {
                 break;
             default:
                 // Handle default case
-                break;
+
         }
 
         // Initialize and set up adapter
@@ -107,11 +107,17 @@ public class PlantList extends AppCompatActivity {
             holder.playButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent integer = new Intent(PlantList.this, PlantDetailsActivity.class);
-                    startActivity(integer);
+                    // Pass plant details to PlantDetailsActivity
+                    Intent intent = new Intent(PlantList.this, PlantDetailsActivity.class);
+                    intent.putExtra("plantName", plant.getName());
+                    intent.putExtra("plantDescription", plant.getDescription());
+                    intent.putExtra("plantLifespan", plant.getLifespan());
+                    intent.putExtra("plantType", plant.getType());
+                    startActivity(intent);
                 }
             });
         }
+
 
         @Override
         public int getItemCount() {

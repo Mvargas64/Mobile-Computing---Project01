@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button1 = findViewById(R.id.Plant2BTN);
+        Button button1 = findViewById(R.id.Plant1BTN);
         button1.setOnClickListener(this::onClickPlant2BTN);
 
-        Button button2 = findViewById(R.id.Plant1BTN);
+        Button button2 = findViewById(R.id.Plant2BTN);
         button2.setOnClickListener(this::onClickButton1);
 
         Button button3 = findViewById(R.id.Plant3BTN);

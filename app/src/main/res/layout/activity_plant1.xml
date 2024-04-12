@@ -10,6 +10,8 @@
         android:id="@+id/nameTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
         android:text="Name"
         android:textColor="#FFFFFF"
         android:textSize="18sp"

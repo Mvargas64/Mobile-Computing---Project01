@@ -53,11 +53,21 @@ public class PlantList extends AppCompatActivity {
                 plantList.add(new PlantModel.Plant("Horseweed", "Erigeron canadensis", "Horseweed is from North America and is an annual plant with a hairy stem, waxy inflorescence, and numerous pointed leaves.", "Annual, Biennial", "Herb"));
                 plantList.add(new PlantModel.Plant("Common Dandelion", "Taraxacum officinale", "Found in temperate regions around the world. The most noticeable feature is its fruits, the furry spheres that are easily carried by the wind. They are also not poisonous and are edible and very nutritious", "Lifespan 4", "Type 4"));
                 break;
-            case "Plant4":
-                plantList.add(new PlantModel.Plant("Plant 1 Name", "Scientific Name 1", "Description 1", "Lifespan 1", "Type 1"));
-                plantList.add(new PlantModel.Plant("Plant 2 Name", "Scientific Name 2", "Description 2", "Lifespan 2", "Type 2"));
-                plantList.add(new PlantModel.Plant("Plant 3 Name", "Scientific Name 3", "Description 3", "Lifespan 3", "Type 3"));
-                plantList.add(new PlantModel.Plant("Plant 4 Name", "Scientific Name 4", "Description 4", "Lifespan 4", "Type 4"));
+            case "Bushes":
+                plantList.add(new PlantModel.Plant("Siberian Cypress",
+                        "Microbiota decussata",
+                        "Siberian cypress is a dense, low-growing conifer that prefers cool summers and wet, well-drained soil.",
+                        "Perennial", "Evergreen"));
+                plantList.add(new PlantModel.Plant("Japanese Laurel",
+                        "Aucuba japonica",
+                        "Japanese laurel is famous for its colorful, evergreen leaves and red berries.",
+                        "Perennial", "Evergreen"));
+                plantList.add(new PlantModel.Plant("Sensitive plant",
+                        "Mimosa pudica",
+                        "Sensitive plant is named for its reactive nature. The compound leaves will quickly close with even the slightest touch",
+                        "Perennial", "Herbaceous"));
+                plantList.add(new PlantModel.Plant("Firebush", "Hamelia patens", "Firebush is named for its numerous, tubular red and orange flowers that attract hummingbirds.",
+                        "Perennial", "Evergreen"));
                 break;
             default:
                 // Handle default case

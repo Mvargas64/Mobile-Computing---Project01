@@ -141,7 +141,7 @@ public class PlantList extends AppCompatActivity {
                 break;
             default:
                 // Handle default case
-
+                break;
         }
 
         // Initialize and set up adapter
@@ -180,6 +180,7 @@ public class PlantList extends AppCompatActivity {
                     // Pass plant details to PlantDetailsActivity
                     Intent intent = new Intent(PlantList.this, PlantDetailsActivity.class);
                     intent.putExtra("plantName", plant.getName());
+                    intent.putExtra("PlantScientific", plant.getScientific_name());
                     intent.putExtra("plantDescription", plant.getDescription());
                     intent.putExtra("plantLifespan", plant.getLifespan());
                     intent.putExtra("plantType", plant.getType());

@@ -17,17 +17,20 @@ public class PlantDetailsActivity extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent != null) {
             String plantName = intent.getStringExtra("plantName");
-            String plantDescription = intent.getStringExtra("plDescription");
+            String PlantScientific = intent.getStringExtra("PlantScientific");
+            String plantDescription = intent.getStringExtra("plantDescription");
             String plantLifespan = intent.getStringExtra("plantLifespan");
             String plantType = intent.getStringExtra("plantType");
 
             // Set the text views to display the plant details
             TextView nameTextView = findViewById(R.id.nameTV);
+            TextView scientificNameTextView = findViewById(R.id.scientificNameTV);
             TextView descriptionTextView = findViewById(R.id.descriptionTV);
             TextView lifespanTextView = findViewById(R.id.lifespanTV);
             TextView typeTextView = findViewById(R.id.typeTV);
 
             nameTextView.setText(plantName);
+            scientificNameTextView.setText((PlantScientific));
             descriptionTextView.setText(plantDescription);
             lifespanTextView.setText(plantLifespan);
             typeTextView.setText(plantType);

@@ -37,3 +37,5 @@ Member Names: Nicolas Black, Wyatt Morgan, Mario Vargas Bulnes, George Moore, an
 ## Application Information
 Our app give you information on different categories of plants from weeds, toxic plants, flowers, etc. The information consists of the plant names, scientific names, description of the plant, lifespan of the plants, and the type of the plants
 
+### App Icon Image Source:
+# https://www.vecteezy.com/png/23743674-plant-growing-png-graphic-clipart-design 

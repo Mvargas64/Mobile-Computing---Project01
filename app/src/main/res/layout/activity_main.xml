@@ -23,67 +23,80 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="#ff6750a4"
+        android:background="@drawable/border"
         android:queryHint="Search here">
 
     </SearchView>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_below="@id/searchView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:background="#ff6750a4"
+        android:background="@drawable/border"
         android:shadowColor="#00000000"
         android:text="Plant Homepage"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
-        android:textSize="34sp" />
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+        <!--android:background="#ff6750a4"-->
 
     <Button
         android:id="@+id/Plant1BTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
         android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant 1"
-        android:textColorHighlight="#00000000"
+        android:text="Toxic Plants"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
         app:strokeColor="#292626"
         app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/Plant2BTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
         android:layout_below="@id/Plant1BTN"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:onClick="onClickPlant2BTN"
-        android:text="Plant 2"
+        android:text="Trees"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
         app:strokeColor="#292626"
         app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/Plant3BTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
         android:layout_below="@id/Plant2BTN"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant 3"
+        android:text="Weeds"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
         app:strokeColor="#292626"
         app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/Plant4BTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
         android:layout_below="@id/Plant3BTN"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Plant 4"
+        android:text="Bushes"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
         app:strokeColor="#292626"
         app:strokeWidth="4dp" />
 

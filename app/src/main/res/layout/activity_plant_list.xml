@@ -26,6 +26,8 @@
         android:layout_height="wrap_content"
         android:onClick="onClickMainBTN"
         android:text="Main"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
         android:translationY="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

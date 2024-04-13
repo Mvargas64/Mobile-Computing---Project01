@@ -25,6 +25,8 @@
         android:layout_alignParentEnd="true"
         android:layout_gravity="right"
         android:text="Enter"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
         app:strokeColor="#292626"
         app:strokeWidth="4dp" />
 

@@ -49,7 +49,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Plant 1"
-        android:textColorHighlight="#000000"
+        android:textColorHighlight="#00000000"
         app:strokeColor="#292626"
         app:strokeWidth="4dp" />
 

@@ -141,7 +141,6 @@ public class PlantList extends AppCompatActivity {
                 break;
             default:
                 // Handle default case
-                break;
         }
 
         // Initialize and set up adapter
@@ -173,7 +172,7 @@ public class PlantList extends AppCompatActivity {
             final PlantModel.Plant plant = plantList.get(position);
             holder.nameTextView.setText(plant.getName());
 
-            // Set onClickListener for the "play" button
+            // Set onClickListener for the "Enter" button
             holder.playButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

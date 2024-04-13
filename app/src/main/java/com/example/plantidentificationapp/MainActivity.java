@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button1 = findViewById(R.id.Plant1BTN);
-        button1.setOnClickListener(this::onClickPlant2BTN);
+        button1.setOnClickListener(this::onClickButton1);
 
         Button button2 = findViewById(R.id.Plant2BTN);
-        button2.setOnClickListener(this::onClickButton1);
+        button2.setOnClickListener(this::onClickPlant2BTN);
 
         Button button3 = findViewById(R.id.Plant3BTN);
         button3.setOnClickListener(this::onClickPlant3BTN);

@@ -54,6 +54,7 @@
         android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
+        android:onClick="onClickButton1"
         android:text="Toxic Plants"
         android:textColorHighlight="@color/ic_launcher_background"
         android:textColorLink="@color/ic_launcher_background"

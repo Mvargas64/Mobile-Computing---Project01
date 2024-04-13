@@ -31,9 +31,11 @@ https://www.picturethisai.com/wiki/Capsicum_annuum.html
 Through Mario's computer, we attempted to rework a majority of the system, but ran into some issues while trying to run it. Multiple people in the group attempted trouble shooting.
 
 
-### Milestone 3
-## Team Information
+## Milestone 3
+### Team Information
 Member Names: Nicolas Black, Wyatt Morgan, Mario Vargas Bulnes, George Moore, and Jacob Layman
-## Application Information
+### Application Information
 Our app give you information on different categories of plants from weeds, toxic plants, flowers, etc. The information consists of the plant names, scientific names, description of the plant, lifespan of the plants, and the type of the plants
 
+## App Icon Image Source:
+### https://www.vecteezy.com/png/23743674-plant-growing-png-graphic-clipart-design 

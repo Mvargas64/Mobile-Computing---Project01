@@ -74,28 +74,28 @@ public class PlantList extends AppCompatActivity {
                         "Tree of heaven is a rare flowering tree found almost exclusively in Myanmar. It is known for its impressive red flowers that hang on long stalks. Each flower has five petals, two of which are tiny, two mid-sized, and one long petal that can reach 8 cm in length. The scientific name Amherstia nobilis honors English botanist Sarah Amherst.\n",
                         "Perennial\n",
                         "Tree",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.treeofheaven));
                 plantList.add(new PlantModel.Plant(
                         "Orchid trees\n",
                         "Bauhinia\n",
                         "Orchid trees are a collection of trees, shrubs, and vines that are beloved worldwide for their beautiful and fragrant flowers. These blooms come in vibrant shades of red, yellow, purple, orange, and pink. Though many are planted as ornamentals, some species have a more practical use and are harvested for timber.\n",
                         "40-150 Years\n",
                         "Tree",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.orchidtree));
                 plantList.add(new PlantModel.Plant(
                         "Dragon trees 'Sunray'\n",
                         "Dracaena marginata 'Sunray'\n",
                         "Dragon trees 'Sunray' is a dwarf Dragon tree growing to a maximum height of 2 m in contrast to its parent which grows up to 6 m. This hybrid is known as the 'Sunray' because of its two-colored leaves with green edges and a sunny yellow center. This color scheme is brighter than the plain leaves of the parent plant and makes Sunray a popular choice of houseplant.\n",
                         "Perennial\n",
                         "Tree",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.dragonsunray));
                 plantList.add(new PlantModel.Plant(
                         "American Mountain-Ash\n",
                         "Sorbus Americana\n",
                         "American mountain-ash trees (Sorbus americana) grow native in eastern Canada and New England. They grow clusters of tiny berries that remain on the tree through winter, making american mountain-ash an important food source for wildlife. Moose and deer like to eat its foliage and bark, and various birds are fond of its sour fruits. Its small size and attractive appearance make it a good ornamental tree.\n",
                         "Perennial\n",
                         "Tree",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.americanmountain));
                 break;
             case "Weeds":
                 plantList.add(new PlantModel.Plant(

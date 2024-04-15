@@ -189,7 +189,7 @@ public class PlantList extends AppCompatActivity {
         public void onBindViewHolder(PlantViewHolder holder, int position) {
             final PlantModel.Plant plant = plantList.get(position);
             holder.nameTextView.setText(plant.getName());
-            //holder.imageView.setImageResource(plant.getImageResourceId()); // Set the image
+            holder.imageView.setImageResource(plant.getImageResourceId()); // Set the image
 
 
             // Set onClickListener for the "Enter" button
@@ -216,14 +216,14 @@ public class PlantList extends AppCompatActivity {
         }
 
         class PlantViewHolder extends RecyclerView.ViewHolder {
-            //ImageView imageView;
+            ImageView imageView;
             TextView nameTextView;
             Button playButton;
 
             public PlantViewHolder(View itemView) {
                 super(itemView);
                 nameTextView = itemView.findViewById(R.id.nameTV);
-              //  imageView = itemView.findViewById(R.id.imageView);
+                imageView = itemView.findViewById(R.id.imageView);
                 playButton = itemView.findViewById(R.id.playBTN);
             }
         }

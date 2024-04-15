@@ -2,6 +2,8 @@ package com.example.plantidentificationapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -41,5 +43,15 @@ public class PlantDetailsActivity extends AppCompatActivity {
             lifespanTextView.setText(plantLifespan);
             typeTextView.setText(plantType);
         }
+
+        Button backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate back to PlantList activity
+                Intent intent = new Intent(PlantDetailsActivity.this, PlantList.class);
+                startActivity(intent);
+            }
+        });
     }
 }

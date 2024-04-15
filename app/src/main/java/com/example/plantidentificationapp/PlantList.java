@@ -104,28 +104,28 @@ public class PlantList extends AppCompatActivity {
                         "Also known as climbing posion ivy, it is known for it climbing abilities. It is toxic and touching may cause dermatitis.\n",
                         "Perennial\n",
                         "Vine",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.poisonivy));
                 plantList.add(new PlantModel.Plant(
                         "Pokeweed\n",
                         "Phytolacca americana\n",
                         "It has berries that look like a cluster of black grapes. These are very poisonous and should not be eaten. It is considered a pest species by farmers but also grown as an ornamental plant.\n",
                         "Perennial\n",
                         "Herb",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.pokeweed));
                 plantList.add(new PlantModel.Plant(
                         "Horseweed\n",
                         "Erigeron canadensis\n",
                         "Horseweed is from North America and is an annual plant with a hairy stem, waxy inflorescence, and numerous pointed leaves.\n",
                         "Annual, Biennial\n",
                         "Herb",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.horseweed));
                 plantList.add(new PlantModel.Plant(
                         "Common Dandelion\n",
                         "Taraxacum officinale\n",
                         "Found in temperate regions around the world. The most noticeable feature is its fruits, the furry spheres that are easily carried by the wind. They are also not poisonous and are edible and very nutritious\n",
                         "Perennial\n",
                         "Herb",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.dandelion));
                 break;
             case "Bushes":
                 plantList.add(new PlantModel.Plant(

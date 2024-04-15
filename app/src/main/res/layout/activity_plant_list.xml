@@ -28,14 +28,14 @@
         android:text="Main"
         android:textColorHighlight="@color/ic_launcher_background"
         android:textColorLink="@color/ic_launcher_background"
-        android:translationY="250dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        app:strokeColor="#292626"
-        app:strokeWidth="4dp" />
+        android:translationY="360dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.5"
+    app:strokeColor="#292626"
+    app:strokeWidth="4dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

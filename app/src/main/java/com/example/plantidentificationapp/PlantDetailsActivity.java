@@ -32,8 +32,7 @@ public class PlantDetailsActivity extends AppCompatActivity {
             TextView lifespanTextView = findViewById(R.id.lifespanTV);
             TextView typeTextView = findViewById(R.id.typeTV);
 
-
-            // Assuming you have an ImageView with ID imageView in your layout
+            
             imageView.setImageResource(imageView1);
             nameTextView.setText(plantName);
             scientificNameTextView.setText((PlantScientific));

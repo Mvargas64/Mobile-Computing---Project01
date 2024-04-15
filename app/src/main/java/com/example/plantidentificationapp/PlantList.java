@@ -134,28 +134,28 @@ public class PlantList extends AppCompatActivity {
                         "Siberian cypress is a dense, low-growing conifer that prefers cool summers and wet, well-drained soil.\n",
                         "Perennial\n",
                         "Evergreen",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.siberiancypress));
                 plantList.add(new PlantModel.Plant(
                         "Japanese Laurel\n",
                         "Aucuba japonica\n",
                         "Japanese laurel is famous for its colorful, evergreen leaves and red berries.\n",
                         "Perennial\n",
                         "Evergreen",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.japaneselaurel));
                 plantList.add(new PlantModel.Plant(
                         "Sensitive plant\n",
                         "Mimosa pudica\n",
                         "Sensitive plant is named for its reactive nature. The compound leaves will quickly close with even the slightest touch\n",
                         "Perennial\n",
                         "Herbaceous",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.sensitiveplant));
                 plantList.add(new PlantModel.Plant(
                         "Firebush",
                         "Hamelia patens\n",
                         "Firebush is named for its numerous, tubular red and orange flowers that attract hummingbirds.\n",
                         "Perennial\n",
                         "Evergreen",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.firebush));
                 break;
             default:
                 // Handle default case

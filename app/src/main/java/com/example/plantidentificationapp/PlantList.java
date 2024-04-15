@@ -43,7 +43,7 @@ public class PlantList extends AppCompatActivity {
                         "The Heart of Jesus plant, despite its seemingly pure name, is actually poisonous. Similar to other Caladiums, its sap can cause intense irritation when ingested or touched. Contact with the sap leads to a painful and itchy rash. Ingestion of the plant induces symptoms akin to the rash but internally, affecting the mouth, digestive system, causing nausea, vomiting, diarrhea, and swelling. It's crucial to keep this plant out of reach of children.\n",
                         "This plant typically has a lifespan of a few months to a few years, depending on its growing conditions and care. However, its toxicity remains consistent throughout its lifespan.\n",
                         "Perennial Ornamental Plant",
-                        R.drawable.ic_launcher_background));
+                        R.drawable.caladium_6692637_640));
 
                 plantList.add(new PlantModel.Plant(
                         "Evergreen azalea Poisonous\n",
@@ -51,21 +51,21 @@ public class PlantList extends AppCompatActivity {
                         "Evergreen azaleas, belonging to the Rhododendron genus, contain Grayanotoxin in all parts, which can induce various adverse effects. Skin contact may lead to rashes, while inhaling pollen can irritate mucous membranes. Ingestion can result in nausea, vomiting, arrhythmia, low blood pressure, and hallucinations. Even honey made from Rhododendron pollen can be harmful due to the potency of Grayanotoxin it contains.\n",
                         "lifespan can vary depending on factors such as species, growing conditions, and care, but they generally live for several years to decades.\n",
                         "Perennial Shrubs",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.azalea_3387715_640));
                 plantList.add(new PlantModel.Plant(
                         "Heavenly bamboo Poisonous\n",
                         "Nandina Domestica\n",
                         "The berries of heavenly bamboo are highly toxic due to their hydrogen cyanide content. Ingesting these berries, especially in large amounts, can lead to cyanide poisoning, potentially resulting in death within a short timeframe. Common symptoms of consuming heavenly bamboo berries include vomiting, diarrhea, abdominal pain, nausea, and occasionally seizures. Children are particularly at risk due to the appealing appearance of the bright red berries.\n",
                         "Its lifespan can vary, but it typically ranges from 10 to 20 years, depending on growing conditions and care.\n",
                         "Perennial Shrub",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.heavenly_bamboo_6002077_640));
                 plantList.add(new PlantModel.Plant(
                         "English ivy Poisonous\n",
                         "Hedera helix\n",
                         "English ivy possesses moderate toxicity, whether ingested or upon physical contact, with all parts of the plant containing toxic substances. Contact with the sap from the leaves or stem can lead to skin inflammation, redness, itching, and blistering. Ingesting the berries induces a burning sensation in the throat, while consuming the leaves can result in symptoms such as delirium, hallucinations, fever, convulsions, rashes, vomiting, diarrhea, stomach pain, and excessive salivation. Additionally, English ivy contains allergens that may affect sensitive individuals. Poisoning from this plant is most likely to occur accidentally, given its common cultivation and invasive nature in North America.\n",
                         "Its lifespan can vary depending on growing conditions and care, but it typically lives for several years to decades.\n",
                         "Perennial Vine",
-                        R.drawable.ic_launcher_foreground));
+                        R.drawable.ivy_5904224_640));
                 break;
             case "Trees":
                 plantList.add(new PlantModel.Plant(

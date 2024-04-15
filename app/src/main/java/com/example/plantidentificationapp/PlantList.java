@@ -95,7 +95,7 @@ public class PlantList extends AppCompatActivity {
                         "American mountain-ash trees (Sorbus americana) grow native in eastern Canada and New England. They grow clusters of tiny berries that remain on the tree through winter, making american mountain-ash an important food source for wildlife. Moose and deer like to eat its foliage and bark, and various birds are fond of its sour fruits. Its small size and attractive appearance make it a good ornamental tree.\n",
                         "Perennial\n",
                         "Tree",
-                        R.drawable.americanmountain));
+                        R.drawable.americanmountainash));
                 break;
             case "Weeds":
                 plantList.add(new PlantModel.Plant(

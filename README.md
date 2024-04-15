@@ -25,7 +25,7 @@ Make sure that all of the team members have clearly defined contributions (commi
 ---
 
 ### Website Used
-https://www.picturethisai.com/wiki/Capsicum_annuum.html
+https://www.picturethisai.com/
 
 ### Milestone 2 Description of changes:
 Through Mario's computer, we attempted to rework a majority of the system, but ran into some issues while trying to run it. Multiple people in the group attempted trouble shooting.

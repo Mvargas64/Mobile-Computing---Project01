@@ -9,15 +9,17 @@ public class PlantModel {
         private String Lifespan;
 
         private String Type;
+        private int imageResourceID;
 
 
 
-        public Plant(String Name, String Scientific_name, String Description, String Lifespan, String Type) {
+        public Plant(String Name, String Scientific_name, String Description, String Lifespan, String Type, int ImageResourceId) {
             this.Name = Name;
             this.Scientific_name = Scientific_name;
             this.Description = Description;
             this.Lifespan = Lifespan;
             this.Type = Type;
+            this.imageResourceID = ImageResourceId;
         }
 
         public String getName() {
@@ -66,6 +68,14 @@ public class PlantModel {
         public void setType(String Type) {
 
             this.Type = Type;
+        }
+
+        public int getImageResourceId() {
+            return imageResourceID;
+        }
+
+        public void setImageResourceId(int imageResourceId) {
+            imageResourceId = imageResourceId;
         }
 
 }

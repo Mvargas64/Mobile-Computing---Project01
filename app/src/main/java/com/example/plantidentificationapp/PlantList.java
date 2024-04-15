@@ -223,7 +223,7 @@ public class PlantList extends AppCompatActivity {
             public PlantViewHolder(View itemView) {
                 super(itemView);
                 nameTextView = itemView.findViewById(R.id.nameTV);
-                imageView = itemView.findViewById(R.id.imageView);
+                imageView = itemView.findViewById(R.id.imageView2);
                 playButton = itemView.findViewById(R.id.playBTN);
             }
         }

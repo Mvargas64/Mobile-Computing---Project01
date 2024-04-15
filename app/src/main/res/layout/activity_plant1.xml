@@ -19,6 +19,13 @@
         android:textStyle="bold" />
 
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:translationX="20dp"
+        app:srcCompat="@drawable/americanmountainash" />
+
     <Button
         android:id="@+id/playBTN"
         android:layout_width="wrap_content"
